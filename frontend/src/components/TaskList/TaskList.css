@@ -1,0 +1,117 @@
+/* General styles for task cards */
+.task-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;  
+    justify-content: flex-start;
+    padding: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px; /* Center the list and control max width */
+}
+h1{
+    text-align: center;
+    padding-top: 3%;
+}
+
+/* Animation for new task appearance */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.task-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: calc(33.33% - 10px);  
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    animation: fadeInUp 0.5s ease; /* Apply the fade-in animation */
+}
+
+.task-card.completed {
+    background-color: #ceface;
+}
+
+.task-card.not-completed {
+    background-color: #facfcf;
+}
+
+.task-card h3, .task-card p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.task-card .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.task-card button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.task-card button:hover {
+    background-color: #0056b3;
+}
+
+.task-card .react-switch {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Hover animation */
+.task-card:hover {
+    transform: translateY(-10px); /* Lift the card slightly */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow for a more pronounced effect */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .task-card {
+        width: calc(50% - 10px); /* Two cards per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .task-card {
+        width: calc(100% - 10px); /* One card per row */
+    }
+
+    .task-list {
+        padding: 20px; /* Reduce padding on smaller screens */
+    }
+}
+
+/* Style the form to be responsive */
+form {
+    width: 100%;
+    max-width: 500px; /* Control max width */
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments for form */
+@media (max-width: 768px) {
+    form {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+}

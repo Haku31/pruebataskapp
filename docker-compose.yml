@@ -1,0 +1,16 @@
+
+
+services:
+  backend:
+    image: my-backend
+    build:
+      context: ./backend
+    ports:
+      - "8888:8888"
+  
+  frontend:
+    image: my-frontend
+    build:
+      context: ./frontend
+    ports:
+      - "3000:3000"
