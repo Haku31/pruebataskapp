@@ -12,9 +12,9 @@ Docker
 Clonacion del repositorio
 
 Ejecuta 
-git clone ---
-cd pruebataskapp
+git clone https://github.com/Haku31/pruebataskapp.git
 
+cd pruebataskapp
 Ejecucion Docker compose
 
 Ejecuta
