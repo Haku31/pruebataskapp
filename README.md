@@ -1,38 +1,53 @@
 Task List Application
-
-Descripción
-
-Esta es una aplicación de gestión de tareas que consta de un backend en Python utilizando Tornado y un frontend en React. La aplicación permite a los usuarios administrar tareas mediante una API que permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar). La aplicación está contenedorizada utilizando Docker para facilitar su despliegue y gestión.
+¡Bienvenido a la aplicación de gestión de tareas! Esta aplicación te permite administrar tus tareas de manera eficiente mediante una API que soporta operaciones CRUD (Crear, Leer, Actualizar, Eliminar). Está compuesta por un backend en Python utilizando Tornado y un frontend en React, y está completamente contenedorizada usando Docker para facilitar su despliegue y gestión.
 
 Requisitos
+Antes de comenzar, asegúrate de tener instalados los siguientes componentes en tu máquina:
 
-Docker desktop
+Docker Desktop
 Docker
+Clonación del Repositorio
+Para clonar el repositorio, abre una terminal y ejecuta:
 
-Clonacion del repositorio
-
-Ejecuta 
+bash
+Copiar código
 git clone https://github.com/Haku31/pruebataskapp.git
 cd pruebataskapp
+Ejecución con Docker Compose
+Para iniciar la aplicación, ejecuta el siguiente comando en la raíz del proyecto:
 
-
-Ejecucion Docker compose
-
-Ejecuta
+bash
+Copiar código
 docker compose up
-El backend quedara corriendo en el puerto 8888 y el front en el puerto 3000
-ingresa localhost:3000
+Una vez que Docker Compose haya iniciado los contenedores, el backend estará disponible en el puerto 8888 y el frontend en el puerto 3000. Puedes acceder a la aplicación en tu navegador en http://localhost:3000.
 
-Activacion de entorno python y pruebas pytest
+Activación del Entorno Python y Pruebas
+Si deseas ejecutar pruebas en el backend, sigue estos pasos:
 
+Navega al directorio del backend:
+
+bash
+Copiar código
 cd backend
+Activa el entorno virtual:
+
+En Windows:
+
+bash
+Copiar código
 venv\Scripts\activate
+En macOS/Linux:
+
+bash
+Copiar código
+source venv/bin/activate
+Regresa al directorio raíz del proyecto y ejecuta las pruebas:
+
+bash
+Copiar código
 cd ..
 pytest
-
-Disfruta del software 
-
-cualquier duda comunicarse a barretojhonalex@gmail.com
-
+¡Disfruta del Software!
+¡Eso es todo! Ahora puedes disfrutar de tu aplicación de gestión de tareas. Si tienes alguna duda o necesitas asistencia, no dudes en comunicarte con nosotros a: barretojhonalex@gmail.com.
 
 
