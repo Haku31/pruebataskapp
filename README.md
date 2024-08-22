@@ -28,7 +28,7 @@ docker compose up
 
 Una vez que Docker Compose haya iniciado los contenedores, el backend estará disponible en el puerto 8888 y el frontend en el puerto 3000. Puedes acceder a la aplicación en tu navegador en localhost:3000.
 
-##Activación del Entorno Python y Pruebas
+## Activación del Entorno Python y Pruebas
 
 Si deseas ejecutar pruebas en el backend, sigue estos pasos:
 
@@ -50,8 +50,8 @@ Regresa al directorio raíz del proyecto y ejecuta las pruebas:
 cd ..
 pytest
 ```
-###¡Disfruta del Software!
-###¡Eso es todo! Ahora puedes disfrutar de tu aplicación de gestión de tareas. Si tienes alguna duda o necesitas asistencia, no dudes en comunicarte con nosotros a: barretojhonalex@gmail.com.
+### ¡Disfruta del Software!
+### ¡Eso es todo! Ahora puedes disfrutar de tu aplicación de gestión de tareas. Si tienes alguna duda o necesitas asistencia, no dudes en comunicarte con nosotros a: barretojhonalex@gmail.com.
 
 
 
