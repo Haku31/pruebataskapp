@@ -9,5 +9,29 @@ Requisitos
 Docker desktop
 Docker
 
+Clonacion del repositorio
+
+Ejecuta 
+git clone ---
+cd pruebataskapp
+
+Ejecucion Docker compose
+
+Ejecuta
+docker compose up
+El backend quedara corriendo en el puerto 8888 y el front en el puerto 3000
+ingresa localhost:3000
+
+Activacion de entorno python y pruebas pytest
+
+cd backend
+venv\Scripts\activate
+cd ..
+pytest
+
+Disfruta del software 
+
+cualquier duda comunicarse a barretojhonalex@gmail.com
+
 
 
