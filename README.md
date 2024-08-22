@@ -17,5 +17,11 @@ Para clonar el repositorio, abre una terminal y ejecuta:
 git clone https://github.com/Haku31/pruebataskapp.git
 cd pruebataskapp
 
+## Ejecución con Docker Compose
+
+Para iniciar la aplicación, ejecuta el siguiente comando en la raíz del proyecto:
+
+```bash
+docker compose up
 
 
