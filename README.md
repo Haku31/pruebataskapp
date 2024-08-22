@@ -34,10 +34,11 @@ Si deseas ejecutar pruebas en el backend, sigue estos pasos:
 
 Navega al directorio del backend:
 
-bash
-Copiar código
+```bash
 cd backend
-Activa el entorno virtual:
+```
+
+### Activa el entorno virtual:
 
 En Windows:
 
