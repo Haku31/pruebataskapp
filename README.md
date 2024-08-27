@@ -32,11 +32,6 @@ Una vez que Docker Compose haya iniciado los contenedores, el backend estará di
 
 Si deseas ejecutar pruebas en el backend, sigue estos pasos:
 
-Navega al directorio del backend:
-
-```bash
-cd backend
-```
 
 ### Activa el entorno virtual:
 
